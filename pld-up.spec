@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Networking/Admin
 Source0:	http://free.of.pl/a/adgor/%{name}-%{version}.tar.gz
+# Source0-md5:	9006dcc96dbc62fb0778c9eb72a2d2f8
 Requires:	poldek
 Requires:	grep
 Requires:	sed
