@@ -1,7 +1,7 @@
 Summary:	Packets Update Tool
 Summary(pl):	Narzêdzie do aktualizacji pakietów
 Name:		pld-up
-Version:	0.27
+Version:	0.28
 Release:	1
 License:	GPL
 Group:		Networking/Admin
