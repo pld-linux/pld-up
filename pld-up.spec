@@ -5,7 +5,7 @@ Version:	0.25
 Release:	2
 License:	GPL
 Group:		Networking/Admin
-Source0:	http://www.kki.net.pl/~adgor/%{name}-%{version}.tar.gz
+Source0:	http://free.of.pl/a/adgor/%{name}-%{version}.tar.gz
 Requires:	poldek
 Requires:	grep
 Requires:	sed
