@@ -5,10 +5,11 @@ Version:	0.28
 Release:	1
 License:	GPL
 Group:		Networking/Admin
-Source0:	http://free.of.pl/a/adgor/%{name}-%{version}.tar.gz
-# Source0-md5:	9006dcc96dbc62fb0778c9eb72a2d2f8
-Requires:	poldek
+#Source0:	http://free.of.pl/a/adgor/%{name}-%{version}.tar.gz
+Source0:	%{name}-%{version}.tar.gz
+# Source0-md5:	df23068242a75d45750fdf83f47535e5
 Requires:	grep
+Requires:	poldek
 Requires:	sed
 Requires:	textutils
 BuildArch:	noarch
