@@ -1,8 +1,8 @@
 Summary:	Packets Update Tool
 Summary(pl):	Narzêdzie do aktualizacji pakietów
-Name:		pldup
+Name:		pld-up
 Version:	0.25
-Release:	1
+Release:	2
 License:	GPL
 Group:		Networking/Admin
 Source0:	http://www.kki.net.pl/~adgor/%{name}-%{version}.tar.gz
@@ -11,7 +11,9 @@ Requires:	grep
 Requires:	sed
 Requires:	textutils
 Buildarch:	noarch
+Obsoletes:	pldup
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
 
 %description
 %description -l pl
