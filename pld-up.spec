@@ -1,8 +1,8 @@
 Summary:	Packets Update Tool
 Summary(pl):	Narzêdzie do aktualizacji pakietów
 Name:		pld-up
-Version:	0.25
-Release:	2
+Version:	0.26
+Release:	1
 License:	GPL
 Group:		Networking/Admin
 Source0:	http://free.of.pl/a/adgor/%{name}-%{version}.tar.gz
