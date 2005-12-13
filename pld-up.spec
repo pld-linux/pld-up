@@ -42,6 +42,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README CHANGELOG TODO
 %attr(755,root,root) %{_bindir}/pldup
-%config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/pldupsrcs
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/pldupsrcs
 %{_applnkdir}/pldup.desktop
 %{_pixmapsdir}/pldup.png
