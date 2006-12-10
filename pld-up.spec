@@ -28,11 +28,11 @@ Prosty skrypt do aktualizacji pakietów w Twoim systemie.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d \
-	$RPM_BUILD_ROOT{%{_sysconfdir},%{_bindir},%{_applnkdir},%{_pixmapsdir}}
+	$RPM_BUILD_ROOT{%{_sysconfdir},%{_bindir},%{_desktopdir},%{_pixmapsdir}}
 
 install pldupsrcs $RPM_BUILD_ROOT%{_sysconfdir}
 install pldup $RPM_BUILD_ROOT%{_bindir}
-install pldup.desktop $RPM_BUILD_ROOT%{_applnkdir}
+install pldup.desktop $RPM_BUILD_ROOT%{_desktopdir}
 install pldup.png $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %clean
@@ -43,5 +43,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc README CHANGELOG TODO
 %attr(755,root,root) %{_bindir}/pldup
 %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/pldupsrcs
-%{_applnkdir}/pldup.desktop
+%{_desktopdir}/pldup.desktop
 %{_pixmapsdir}/pldup.png
