@@ -1,5 +1,5 @@
 Summary:	Packets Update Tool
-Summary(pl):	Narzêdzie do aktualizacji pakietów
+Summary(pl.UTF-8):   NarzÄ™dzie do aktualizacji pakietÃ³w
 Name:		pld-up
 Version:	0.28
 Release:	1
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Simple script that can update your system.
 
-%description -l pl
-Prosty skrypt do aktualizacji pakietów w Twoim systemie.
+%description -l pl.UTF-8
+Prosty skrypt do aktualizacji pakietÃ³w w Twoim systemie.
 
 %prep
 %setup -q
