@@ -1,5 +1,5 @@
 Summary:	Packets Update Tool
-Summary(pl.UTF-8):   Narzędzie do aktualizacji pakietów
+Summary(pl.UTF-8):	Narzędzie do aktualizacji pakietów
 Name:		pld-up
 Version:	0.28
 Release:	1
